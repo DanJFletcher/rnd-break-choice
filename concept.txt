@@ -1,0 +1,23 @@
+==============================
+First prototype: Proto-v.1.0.0
+
+No GUI, run in shell only. 
+Use a dictionary to store possible break options, and a brief description 
+of the break from the article:
+@ https://open.bufferapp.com/science-taking-breaks-at-work/?utm_content=buffer4aa0e&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+
+Pseudo:
+-----------------------------
+WHILE true
+    GET a random break option
+    DISPLAY its value
+    ask to reroll
+    IF reroll = yes
+        GET another random break
+
+=======================
+Ideas for Proto-v.1.2.0
+
+Use a txt file to read breaks and descriptions from.
+populate a list/diciontary with the contents of the text file.
+   look into using JSON with Python or maybe XML. 
