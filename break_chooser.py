@@ -24,7 +24,9 @@ on my short but frequent breaks. '''
 
 import random
 
-
+# A dictionary containing each break option and a description of the break
+# from this article:
+# https://open.bufferapp.com/science-taking-breaks-at-work/?utm_content=buffer4aa0e&utm_medium=social&utm_source=twitter.com&utm_campai
 breaks = {'1': 'Take a walk! \n'
           'A 20-minute stroll can increase blood flow to the brain, '
           'which can boost creative thought. Regular walks can enhance '
@@ -42,8 +44,8 @@ breaks = {'1': 'Take a walk! \n'
           'brain- and productivity-nourishing foods to grab.'}
 
 
-choice = random.randint(1,3)
+# choose random int between one and the length of the dictionary
+choice = random.randint(1,len(breaks))
 
-select_break = breaks.get(str(choice))
-
-print(select_break)
+# print the value at choice to the screen
+print(breaks.get(str(choice)))
