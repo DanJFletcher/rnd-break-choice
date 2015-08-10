@@ -1,3 +1,27 @@
+# ****************************************************************************
+# PROGRAM: RANDOM BREAK CHOOSER                                              *
+# DESCRIPTION: A SCRIPT TO RNDMLY CHOOSE FROM A LIST OF BREAK OPTIONS        *
+# AUTHOR: DAN FLETCHER                                                       *
+# DATE STARTED: AUG 10/15                                                    *
+# ****************************************************************************
+
+''' I recently started adopting the Pomodoro technique for scheduling breaks
+during the work day. This script is like rolling the dice to choose what I do
+on my short but frequent breaks. '''
+
+# TODO:
+# HIGH PRIORITY:
+# ---------------
+# 1. add more breaks to the dictionary
+# EXTRA (LOW PRIORITY):
+# ---------------
+# 1. add option to set the current length of break (5min or 30min?)
+# 2. make choices based on the length of current break (ie if the break is 5min,
+#    don't choose a walk as an option).
+# 3. look into making a GUI. (I've Never worked with graphics in Python yet)
+
+
+
 import random
 
 
