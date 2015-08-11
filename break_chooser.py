@@ -82,7 +82,47 @@ breaks = {1: 'Take a walk! \n'
           'When pilots were given a nap of 30 minutes on long flights, there '
           'was a 16 percent improvement in their reaction time. '
           '(Pilots who didn’t nap saw a a 34 percent decrease over the '
-          'course of the flight.)',}
+          'course of the flight.)',
+
+          10: 'Excercise! \n'
+          'Exercise can make you happier, give you more energy and help you gain '
+          'focus. You can pack in a decent workout in under 10 minutes, and '
+          'switching to a different kind of task give yours mind needed rest. '
+          'Try the 7-minute workout, for example.',
+
+          11: 'Socialize! \n'
+          'Yup, even hanging out with coworkers for a bit is a productive break! '
+          'Research shows that talking with colleagues can increase your '
+          'productivity. In a study of call center workers, those who talked to '
+          'more co-workers were getting through calls faster, felt less stressed '
+          'and had the same approval ratings as their peers.',
+
+          12: 'Meditate! \n'
+          'One of the most powerful ways to relax your brain in a short amount '
+          'of time is a session of meditation. ',
+
+          13: 'Plan something fun! \n'
+          'Like a future trip or vacation. Research shows that anticipating a '
+          'trip often makes people happier than the trip itself.',
+
+          14: 'Go outside and see some nature! \n'
+          'On a nice day, spend some time outside during your break–and try to '
+          'find more natural and less urban settings. Spending time in nature '
+          'is good for your immune system and has been shown to improve focus '
+          'and relieve stress.',
+
+          15: 'Excercise your eyes! \n'
+          'Especially if you look at a screen most of the day, your eyes could '
+          'use a break. Use the 20-20-20 rule: Every 20 minutes, take a break '
+          'for at least 20 seconds and look at objects that are 20 feet away '
+          'from you.',
+
+          16: 'Mess around online! \n'
+          'That’s right; go ahead and check your Facebook account or take that '
+          'Buzzfeed quiz. Studies have shown that goofing off online for a few '
+          'minutes can be just as productive a break as any other '
+          '(and better than texting or sending emails) when it comes to '
+          'refreshing your brain.'}
 
 
 # choose random int between one and the length of the dictionary
