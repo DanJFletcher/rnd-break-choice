@@ -61,7 +61,28 @@ breaks = {1: 'Take a walk! \n'
           6: 'Doodle! \n'
           'Let your mind wander as you put pen to paper for some creative '
           'free time. Research shows that doodling can stimulate new ideas '
-          'and help us stay focused.',}
+          'and help us stay focused.',
+
+          7: 'Look at Baby Animals \n'
+          'In one awesome study, participants performed better on a variety '
+          'of tasks after looking at baby animal photos. Only baby animals '
+          'will do the trick here–full-grown animal pics didn’t have the same '
+          'effect.',
+          
+          8: 'Listen to Music! \n'
+          'Focusing on music can significantly improve our motor and '
+          'reasoning skills, and it has a variety of health benefits '
+          'as well.',
+
+          9: 'Take a Nap! \n'
+          'If your workplace is super progressive, you can enjoy tons of '
+          'benefits from even the tiniest midday nap. A nap of even 10 minutes '
+          'has been shown to improve cognitive function and decrease sleepiness '
+          'and fatigue. \n'
+          'When pilots were given a nap of 30 minutes on long flights, there '
+          'was a 16 percent improvement in their reaction time. '
+          '(Pilots who didn’t nap saw a a 34 percent decrease over the '
+          'course of the flight.)',}
 
 
 # choose random int between one and the length of the dictionary
