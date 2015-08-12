@@ -124,9 +124,20 @@ breaks = {1: 'Take a walk! \n'
           '(and better than texting or sending emails) when it comes to '
           'refreshing your brain.'}
 
+# if set to False, script will stop executing
+isRunning = True
 
-# choose random int between one and the length of the dictionary
-choice = random.randint(1,len(breaks))
+# loop until isRunning is False
+while(isRunning):
+    print('\n Choosing a break...')
+    
+    # choose random int between one and the length of the dictionary
+    choice = random.randint(1,len(breaks))
 
-# print the value at choice to the screen
-print(breaks.get(choice))
+    # print the value at choice to the screen
+    print(breaks.get(choice))
+
+    # ask user to reroll (get another break option)
+    userInput = input("Reroll? y/n: ")
+    if (userInput.lower == 'n'):
+        isRunning = False
