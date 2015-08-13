@@ -139,5 +139,6 @@ while(isRunning):
 
     # ask user to reroll (get another break option)
     userInput = input("Reroll? y/n: ")
-    if (userInput.lower == 'n'):
+    if (userInput.lower() == 'n'):
+        global isRunning
         isRunning = False
